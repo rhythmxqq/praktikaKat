@@ -57,7 +57,7 @@ public class window2 {
         back_button.getScene().getWindow().hide();
 
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("admin_log.fxml"));
+        loader.setLocation(getClass().getResource("window1.fxml"));
         try {
             loader.load();
         } catch (IOException e) {
